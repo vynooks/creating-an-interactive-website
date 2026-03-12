@@ -21,9 +21,9 @@ create a fictious online store containing 2 pages
 (both pages w/ same header & footer)
 
 - HEADER:
-    -> name of store
-    -> a logo
-    -> navigation section containing links to the home page & contact page
+   x -> name of store
+   x -> a logo
+   x -> navigation section containing links to the home page & contact page
 - FOOTER:
     -> container your name
     -> moot [debateable] link to social media (ex. href value of #)
@@ -34,4 +34,4 @@ create a fictious online store containing 2 pages
     -> submit button
 
 [ps semantic containers: <nav>, <header>, <main>, <footer>]
-layout of page simikar to mock ups
+layout of page similar to mock ups
