@@ -5,17 +5,17 @@ create html webpage w/linked css file (containing all elements in site content)
 upload:
 - github page site
 - github repo link showing:
-    -> index.html file (linked to css)
+   x -> index.html file (linked to css)
     -> contact.html file (linked to same css)
-    -> styles folder (containing css file)
-    -> image folder w/ required logo & pictures
-    -> empty scripts folder
+   x -> styles folder (containing css file)
+   x -> image folder w/ required logo & pictures
+   x -> empty scripts folder
 - screenshot of success html
 - screenshot of success css
 - screenshot showing document outline
 
 <!-- SITE CONTENT -->
-create a fictiouf online store containing 2 pages
+create a fictious online store containing 2 pages
 -> home page
 -> contact page ["contact us"]
 (both pages w/ same header & footer)
