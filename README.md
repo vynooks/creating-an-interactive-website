@@ -7,7 +7,7 @@ upload:
 - github repo link showing:
     -> index.html file (linked to css)
     -> contact.html file (linked to same css)
-    -> styled folder (containing css file)
+    -> styles folder (containing css file)
     -> image folder w/ required logo & pictures
     -> empty scripts folder
 - screenshot of success html
