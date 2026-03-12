@@ -17,7 +17,7 @@ upload:
 <!-- SITE CONTENT -->
 create a fictiouf online store containing 2 pages
 -> home page
--> contact page
+-> contact page ["contact us"]
 (both pages w/ same header & footer)
 
 - HEADER:
