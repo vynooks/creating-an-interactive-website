@@ -25,7 +25,7 @@ create a fictious online store containing 2 pages
    x -> a logo
    x -> navigation section containing links to the home page & contact page
 - FOOTER:
-    -> container your name
+   x -> container your name
     -> moot [debateable] link to social media (ex. href value of #)
 - HOME PAGE:
     -> include at least 2 section (use placeholder for each section)
