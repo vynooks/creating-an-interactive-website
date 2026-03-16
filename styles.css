@@ -9,8 +9,8 @@ footer {
 }
 
 .container div {
-    border-style:solid;
-    border: 2px solid black;
+    border-style: solid;
+    border: 2px solid;
     margin-top: -1px;
     padding-top: 5px;
     padding-left: 10px;
@@ -31,21 +31,11 @@ footer {
     padding: 5px;
 }
 
-.border {
-    border-color: rgb(78, 151, 251);
+
+.border a:hover {
+    background-color: rgb(78, 151, 251);
+    color: white;
 } 
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.submit {
-    text-align: center;
-    background-color: #9c9c9c;
-
-}
 
 #img {
     clip-path: ellipse(50% 35%);
@@ -57,8 +47,48 @@ form {
     border-radius: 50%;
 }
 
-.circle div {
+.circle div { /* fix circles */
     display: flex;
     justify-content: flex-end;
 }
-  
+
+
+/* centering form & input rigth */
+/* Basic layout */
+.contact-form {
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;      /* vertically center label and input */
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+/* Left column: labels */
+.form-row > label {
+    flex: 0 0 180px;          /* fixed label column width */
+    text-align: right;        /* align label text to the right edge */
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+
+.form-actions button {
+  padding: 10px 16px;
+  border: none;
+  background: #0a66c2;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
