@@ -1,18 +1,25 @@
 footer {
     text-align: center;
+    color: grey;
+}
+
+.header-top {
+    display: flex;
+    height: 40px;
+    align-items: center;          /* vertically center header and circles */
+    justify-content: space-between
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .container div {
     border-style: solid;
     border: 2px solid;
-    margin-top: -1px;
-    padding-top: 5px;
+    padding-top: 0px;
     padding-left: 10px;
 }
 
@@ -38,20 +45,25 @@ footer {
 } 
 
 #img {
-    clip-path: ellipse(50% 35%);
+    clip-path: ellipse(45% 38%);
 }
 
-.circle { 
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
+.no-border {
+    border: none;
 }
 
-.circle div { /* fix circles */
-    display: flex;
-    justify-content: flex-end;
+.circle {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid black;
+  margin-left: 2px;
 }
 
+.circle-blue {
+    border-color: aqua;
+}
 
 /* centering form & input rigth */
 /* Basic layout */
@@ -86,8 +98,9 @@ form {
 .form-actions button {
   padding: 10px 16px;
   border: none;
-  background: #0a66c2;
-  color: #fff;
-  border-radius: 4px;
   cursor: pointer;
+}
+
+.style-grey {
+    color: grey;
 }
